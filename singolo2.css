@@ -1,0 +1,142 @@
+* { margin: 0; padding: 0; }
+
+body {
+  width: 1020px;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  max-width: 1020px;
+  padding: 60px 40px;
+}
+
+.portfolio {
+  background: #2d303a;
+}
+
+.portfolio__title {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.portfolio__description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  padding: 10px 0px 20px 0px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation__link {
+  padding-right: 5px;
+}
+
+.portfolio__button {
+  height: 22px;
+  border-radius: 5px;
+  color: #666d89;
+  border: 1px solid #666d89;
+  background-color: #2d303a;
+  padding: 0px 5px;
+  margin-left: 5px;
+}
+
+.portfolio__button:hover {
+  background: #2d303a;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.gallery__img {
+  margin: 5px 20px 0px 0px;
+}
+
+.layout-4-column {
+  display: flex;
+  padding: 10px 10px 0px 0px;
+}
+
+.portfolio__bottom {
+  height: 6px;
+  background-color: #323746;
+}
+
+.about-us__title {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.about-us__description {
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  padding: 15px 0px 35px 0px;
+}
+
+.layout-3-column {
+  display: flex;
+}
+
+.employee {
+  margin: 10px;
+}
+
+.employee__name {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.employee__description {
+  width: 300px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.btn-group {
+  margin-top: 10px;
+}
+
+.contact__image {
+  margin-right: 5px;
+}
+
+.contact__image:hover {
+  background: #2d303a; 
+}
+
+.about-us__bottom {
+  height: 6px;
+  background-color: white;
+}
