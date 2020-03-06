@@ -50,10 +50,6 @@ padding-bottom: -10px;
   display: flex;
 }
 
-.contact-us__form {
-
-}
-
 .layout-3-column .contact-us {
   color: #f0d8d9;
 }
@@ -90,14 +86,6 @@ padding-bottom: -10px;
   background-color: #d6564f;
   margin: 8px 0px 8px 0px;
   padding: 8px 10px 0px 15px;
-}
-
-.contact-information {
-
-}
-
-.contact-information__wrapper {
-
 }
 
 .contact-informations__title {
@@ -147,10 +135,6 @@ padding-bottom: -10px;
   background-color: #2d303a;
 }
 
-.footer__wrapper {
-
-}
-
 .layout-2-column {
   display: flex;
   flex-direction:row;
@@ -179,9 +163,6 @@ padding-bottom: -10px;
  widht: 175px;
 }
 
-.contact__footer {
-
-}
 .contact__footer:hover {
   background: #ffffff;
 }
