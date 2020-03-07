@@ -1,9 +1,17 @@
-.portfolio {
-  background: #2d303a;
+* { margin: 0; padding: 0; }
+
+body {
+  width: 1020px;
+  font-family: 'Lato', sans-serif;
 }
 
-.portfolio__wrapper {
+.wrapper {
+  max-width: 1020px;
   padding: 60px 40px;
+}
+
+.portfolio {
+  background: #2d303a;
 }
 
 .portfolio__title {
@@ -23,13 +31,12 @@
   font-family: "Lato";
   font-weight: 300;
   text-align: left;
-  padding: 17px 0px 10px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
-.portfolio__navigation {
+.navigation {
   list-style: none;
   display: flex;
-  margin-bottom: 2px;
 }
 
 .navigation__link {
@@ -38,7 +45,6 @@
 
 .portfolio__button {
   height: 22px;
-  font-size: 12px;
   border-radius: 5px;
   color: #666d89;
   border: 1px solid #666d89;
@@ -67,10 +73,6 @@
   background-color: #323746;
 }
 
-.about-us__wrapper {
-  padding: 60px 40px 0px 40px;
-}
-
 .about-us__title {
   font-size: 30px;
   line-height: 18px;
@@ -78,7 +80,7 @@
   font-family: "Lato";
   font-weight: 900;
   text-align: left;
-  padding: 12px 0px;
+  padding: 10px 0px;
 }
 
 .about-us__description {
@@ -98,7 +100,7 @@
 }
 
 .employee {
-  margin: 10px 20px 20px 0px;
+  margin: 10px;
 }
 
 .employee__name {
@@ -108,8 +110,7 @@
   font-family: "Lato";
   font-weight: 900;
   text-align: left;
-  margin-top: 13px;
-  margin-right: 0px;
+  margin-top: 10px;
 }
 
 .employee__description {
@@ -124,8 +125,7 @@
 }
 
 .btn-group {
-  margin-top: 12px;
-  margin-right: 5px;
+  margin-top: 10px;
 }
 
 .contact__image {
@@ -133,7 +133,7 @@
 }
 
 .contact__image:hover {
-  background: #2d303a;
+  background: #2d303a; 
 }
 
 .about-us__bottom {

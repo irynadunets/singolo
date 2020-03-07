@@ -1,18 +1,16 @@
-* {
-margin : 0;
-padding : 0;
-border : 0 none;
+p {
+  margin: 0;
+  padding: 0;
 }
-
-button,input,textarea {font-family: inherit;font-size: 100%;line-height: 1.15;margin: 0;}
 
 body {
   width: 1020px;
+  margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
-  width: 1020px;
+  max-width: 1020px;
 }
 
 .header {
@@ -64,22 +62,22 @@ body {
   font-family: "Lato";
   font-weight: 700;
   text-align: left;
-  margin: 40px 10px;
-  padding-top: 10px;
+  margin: 20px 15px;
   cursor: pointer;
 }
+
 
 .navigation .navigation__link  a:link {
   color: #ffffff;
   text-decoration: none;
 }
 
-.header__navigation ul li a.link {
-   color: #ffffff;
+.header__navigation ul li a.active {
+   color: #f06c64;
 }
 
-.header__navigation ul li a.link:hover {
-   color: #f06c64;
+.header__navigation ul li a.link {
+   color: #ffffff;
 }
 
 .navigation .navigation__divider {
@@ -103,7 +101,7 @@ body {
 }
 
 .banner__wrapper {
-  height: 593px;
+  height: 590px;
   background-color: #f06c64;
 }
 
@@ -117,11 +115,8 @@ body {
   width: 110px;
   vertical-align: middle;
   text-align: center;
-  padding-top:  55px;
-}
-
-.banner__tags .tag_chev-left img {
-  padding-right: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .banner__tags .tag_chev-left img:active {
@@ -131,18 +126,15 @@ body {
 .banner__tags .tag_iPhone_Vertical {
   width: 310px;
   vertical-align: middle;
-  margin-top: 52px;
-  margin-right: 4px;
-}
-
-.banner__tags .tag_iPhone_Vertical img{
-  margin: 0px 10px 0px 0px;
+  margin-top: 50px;
+  padding: 0px;
 }
 
 .banner__tags .tag_iPhone_Horizontal {
   width: 490px;
   vertical-align: middle;
   margin-top: 50px;
+  padding: 0px;
 }
 
 .banner__tags .tag_chev-right {
@@ -150,11 +142,7 @@ body {
   vertical-align: middle;
   text-align: center;
   margin: 0px;
-  padding-top: 55px;
-}
-
-.banner__tags .tag_chev-right img{
-  padding-left: 10px;
+  padding: 0px;
 }
 
 .banner__tags .tag_chev-right img:active {
@@ -193,13 +181,13 @@ body {
   font-family: "Lato";
   font-weight: 300;
   text-align: left;
-  margin: 7px 0px 35px 0px;
+  margin: 5px 0px 35px 0px;
 }
 
 .layout-3-column {
    display: flex;
    flex-direction: row;
-   margin: 1px 0px 1.1px 1px;
+   margin: 0px;
    padding: 0px;
 }
 

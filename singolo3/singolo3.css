@@ -1,5 +1,20 @@
-.about-us__wrapper {
-  padding: 60px 40px 40px 40px;
+* {
+margin : 0;
+padding : 0;
+border : 0 none;
+ }
+
+button,input,textarea {font-family: inherit;font-size: 100%;line-height: 1.15;margin: 0;}
+
+
+body {
+  width: 1020px;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  max-width: 1020px;
+  padding: 60px 40px 55px 40px;
 }
 
 .quote {
@@ -7,7 +22,7 @@
 }
 
 .quote__wrapper {
-padding: 60px 40px 33px 40px;
+padding-bottom: -10px;
 }
 
 .quote__title {
@@ -31,12 +46,11 @@ padding: 60px 40px 33px 40px;
   margin: 25px 0px 35px 0px;
 }
 
-.quote .layout-2-column {
+.layout-2-column {
   display: flex;
-  flex-direction: row;
 }
 
- .layout-3-column .contact-us {
+.layout-3-column .contact-us {
   color: #f0d8d9;
 }
 
@@ -67,15 +81,11 @@ padding: 60px 40px 33px 40px;
   font-weight: 400;
   text-align: left;
   width: 594px;
-  height: 194px;
+  height: 192px;
   border-radius: 5px;
   background-color: #d6564f;
   margin: 8px 0px 8px 0px;
   padding: 8px 10px 0px 15px;
-}
-
-.contact-information {
-  padding: 5px 15px 0px 20px;
 }
 
 .contact-informations__title {
@@ -85,10 +95,11 @@ padding: 60px 40px 33px 40px;
   font-family: "Lato";
   font-weight: 900;
   text-align: left;
-  margin: 5px 0px 10px 0px;
+  margin: 5px 0px;
 }
 
 .contact-informations__description {
+  width: 300px;
   font-size: 12px;
   line-height: 22px;
   color: #f0d8d9;
@@ -111,30 +122,12 @@ padding: 60px 40px 33px 40px;
   font-weight: 400;
   text-align: left;
   text-decoration: none;
-}
-
-.contact-information-tag img{
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .quote__bottom {
   height: 6px;
   background-color: #ea676b;
-}
-
-.button_submit {
-  width: 100px;
-  border-radius: 5px;
-  background-color: #d6564f;
-  font-size: 12px;
-  line-height: 22px;
-  color: #f48c8f;
-  font-family: "Lato";
-  font-weight: 400;
-}
-
-.button_submit:hover {
-  color: #f0d8d9;
 }
 
 .footer {
@@ -157,7 +150,7 @@ padding: 60px 40px 33px 40px;
   font-weight: 400;
   text-align: left;
   text-decoration: none;
-  padding: 28px 40px;
+  padding: 25px 40px;
 }
 
 .footer__copyright:hover {
@@ -166,7 +159,7 @@ padding: 60px 40px 33px 40px;
 
 .footer-btn-group {
  text-align: right;
- padding: 20px 45px 15px 40px;
+ padding: 25px 40px;
  widht: 175px;
 }
 
